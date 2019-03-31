@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>File Metadata Microservice</title>
+    <link rel="shortcut icon" href="https://cdn.glitch.com/b9622543-866c-46b5-93d8-e44abeb9d03c%2FPelfusion-Long-Shadow-Media-Settings.ico?1553202190389" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>File Metadata Microservice</h1>
+      <p>Upload a file and receive a JSON object containing its filename and size in bytes</p>
+      <form enctype="multipart/form-data" action="/api/fileanalyze" method="POST">
+        <input type="file" id="fileupload" name="upfile" /><br>
+        <input type="submit" id="button" value="upload" />
+      </form>
+      <footer>
+        <p>by <a href="https://github.com/hiimdan">hiimdan</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
